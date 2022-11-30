@@ -3,16 +3,20 @@
   display: grid;
   gap: 1rem;
   /* use the following for regular grids with three columns */
-  /* grid-template-columns: 1fr 1fr 1fr;*/
+  grid-template-columns: 1fr 1fr;
 
   /* use the following for some amazingly adaptive grids that respond to size*/
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  /*grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));*/
   
 
 }
 
-.cell {
+.cell img {
   background-color: beige;
-  padding: 3rem;
+  padding: 1rem;
+  object-fit: cover;
+  vertical-align: top;
+  width: 100%;
 }
+
 
