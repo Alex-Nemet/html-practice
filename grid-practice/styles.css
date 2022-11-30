@@ -1,3 +1,26 @@
+
+.ultra {
+  background-color: black;
+  /* was able to solve the issue of the child divs going to a new line by 
+  adding the max-content width to the parent directory*/
+  width: max-content;
+}
+.sidebar {
+  vertical-align: top;
+  gap: 1rem;
+  display: inline-block;
+  background-color: beige;
+  float: left;
+}
+
+.mega-container {
+  display: inline-block;
+  background-color: brown;
+  vertical-align: top;
+}
+
+
+
 .container {
   padding: 2rem;
   display: grid;
