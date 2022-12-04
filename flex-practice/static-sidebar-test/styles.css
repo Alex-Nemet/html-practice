@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container  {
+  display: flex;
+  align-items: stretch;
+}
+
+.sidebar {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+  padding-bottom: 100%;
+  
+}
+
+.main {
+  background-color: white;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  padding: 20px;
+  font-family:  Courier;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: aqua ;
+  align-items: center;
+}
