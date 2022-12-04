@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  /* ... */
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.links {
+ /* border: 1px solid #fff;   for debugging */
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px; /* by setting this div's width to the same as the menu width it all aligns well */
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
