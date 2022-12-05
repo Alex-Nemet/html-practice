@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  border: 5px solid black;
+  width: 500px;
+}
+
+.container > div {
+  flex: 1;
+}
+
+.container .search {
+  flex: 2
+}
+
+.home {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.search {
+  background-color: lightcoral;
+  padding: 20px;
+  text-align: center;
+}
+
+.logout {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile {
+  background-color: lightcoral;
+  padding: 20px;
+  text-align: center;
+}
