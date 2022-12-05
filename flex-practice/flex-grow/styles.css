@@ -1,14 +1,14 @@
 .container {
   display: flex;
-  border: 5px solid black;
-  width: 500px;
+  border: 5px solid rgb(208, 119, 119);
+  max-width: 1000px;
 }
 
-.container > div {
+/* .container > div {
   flex: 1;
-}
+} */
 
-.container .search {
+.container > .search {
   flex: 2
 }
 
